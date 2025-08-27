@@ -1,1 +1,1 @@
-print("Invalid")
+print("[❌] Lennon debug: Invalid token.")
