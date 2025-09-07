@@ -59,7 +59,8 @@ local Tab = Window:MakeTab({
 })
 Tab:AddButton({
 	Name = "WindUi",
-	Callback = function() loadstring(game:HttpGet("https://protected-roblox-scripts.onrender.com/9d0785ad54dc8ff1056769665ecb810e"))()
+	Callback = function()
+      		loadstring(game:HttpGet("https://protected-roblox-scripts.onrender.com/9d0785ad54dc8ff1056769665ecb810e"))()
 wait(1)
 OrionLib:Destroy()
   	end    
