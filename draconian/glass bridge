@@ -65,3 +65,12 @@ wait(1)
 OrionLib:Destroy()
   	end    
 })
+
+Tab:AddButton({
+	Name = "WindUi",
+	Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/farofazzx/draco.lua/refs/heads/main/HoursLuna.lua",true))()
+wait(1)
+OrionLib:Destroy()
+  	end    
+})
