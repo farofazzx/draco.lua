@@ -1,3 +1,4 @@
-allowed { 
-  "meka_js"
+allowed {
+    "meka_js",
+    "meka_html"
 }
