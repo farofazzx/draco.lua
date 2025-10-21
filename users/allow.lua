@@ -1,6 +1,3 @@
 allowed {
-    "meka_js"",
-    "meka_html"",
-    "bazukaa",
-    "teste"
+    "meka_js""
 }
