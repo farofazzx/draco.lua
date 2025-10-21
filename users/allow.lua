@@ -1,3 +1,3 @@
-allowed {
+return {
     "meka_js""
 }
