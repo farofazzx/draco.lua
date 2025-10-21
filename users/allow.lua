@@ -1,3 +1,3 @@
 return {
-    "meka_js""
+    "meka_js"
 }
